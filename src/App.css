@@ -1,38 +1,129 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #181818;
+  color: #e0e0e0;
+  overflow-y: auto;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, #1a1a1a 0%, #121212 100%);
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 60px;
+  color: #ff6f61;
+}
+
+
+.option h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff9e80;
+}
+
+.option p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+
+.options {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  gap: 20px;
+}
+
+
+.option {
+  background: #242424;
+  border-radius: 20px;
+  padding: 40px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, background 0.3s;
+}
+
+
+.option:hover {
+  transform: translateY(-10px);
+  background: #2d2d2d;
+}
+
+.option h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #ff9e80;
+}
+
+.option p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ff6f61;
+  color: #181818;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff8a65;
+}
+
+/* src/App.css */
+a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9e80;
+}
+
+.law {
+  font-size: 2.2em;
+  margin-top: 40px;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+.three {
+  font-size: 8em;
+}
+
+.vid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.image {
+width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container { 
+  color: #e0e0e0;
+  text-align: left;
+  padding: 20px;
 }
