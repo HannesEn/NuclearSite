@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NuclearSite/static/css/main.e359b1b4.css",
-    "main.js": "/NuclearSite/static/js/main.051ad73d.js",
-    "static/js/453.dc39d9e4.chunk.js": "/NuclearSite/static/js/453.dc39d9e4.chunk.js",
-    "index.html": "/NuclearSite/index.html",
-    "main.e359b1b4.css.map": "/NuclearSite/static/css/main.e359b1b4.css.map",
-    "main.051ad73d.js.map": "/NuclearSite/static/js/main.051ad73d.js.map",
-    "453.dc39d9e4.chunk.js.map": "/NuclearSite/static/js/453.dc39d9e4.chunk.js.map"
+    "main.css": "/static/css/main.e359b1b4.css",
+    "main.js": "/static/js/main.cc7585fa.js",
+    "static/js/453.dc39d9e4.chunk.js": "/static/js/453.dc39d9e4.chunk.js",
+    "index.html": "/index.html",
+    "main.e359b1b4.css.map": "/static/css/main.e359b1b4.css.map",
+    "main.cc7585fa.js.map": "/static/js/main.cc7585fa.js.map",
+    "453.dc39d9e4.chunk.js.map": "/static/js/453.dc39d9e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e359b1b4.css",
-    "static/js/main.051ad73d.js"
+    "static/js/main.cc7585fa.js"
   ]
 }
